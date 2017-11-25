@@ -3,11 +3,13 @@ import sys
 
 
 def parser(string):
+    """ Rexp Environment -> Value Environment
+            Recursively evaluates the given Rexp in the given environment"""
     return racython.parser(string)
 
 
-def interp(expr):
-    return racython.interp(expr, racython.getEnv())
+def interp(expr, env=racython.getEnv()):
+    return racython.interp(expr, env)
 
 
 def run(string):

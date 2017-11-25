@@ -3,7 +3,6 @@ A RExp is one of:
     - Number
     - ['if0' RExp RExp RExp]
     - Variable
-    - ['quote' SExp]
     - ['fun' Variable RExp]
     - ['cond' (list RExp Rexp) ...]
     - ['define' Variable RExp]
