@@ -4,9 +4,7 @@ Implementaremos el lenguaje del curso en un lenguaje NO funcional (Python). Espe
 
 ## Empezando
 
-
-
-### Prerequisites
+### Prerequisitos
 
 Para esta tarea descargamos las librerias nltk y sexpdata, ya sea desde
 ```
@@ -39,7 +37,7 @@ python tarea3.py "(if0 (< 5 0) 5 6)"
 
 Solamente debes hacer el comando a continuación, el que arrojará dos errores. Esto es intencional dado los errores de identificador libre.
 ```
-python testingRacython.py
+python testingTarea.py
 ```
 
 ## Github
